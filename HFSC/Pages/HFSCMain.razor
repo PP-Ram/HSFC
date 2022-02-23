@@ -1,9 +1,8 @@
 ﻿@page "/hfscmain"
 
 <MudTabs Elevation="1" Rounded="true" PanelClass="pa-6" Centered="true" Color="@Color.Secondary">
-
     <MudTabPanel Text="Personal Details" ToolTip="Personal Details">
-        <MudText>Personal Details</MudText>
+        <S1_PersonalDetails />
     </MudTabPanel>
     <MudTabPanel Text="Appointment Details" ToolTip="Appointment Details">
         <MudText>Appointment Details</MudText>
@@ -29,7 +28,6 @@
     <MudTabPanel Text="Visit Summary" ToolTip="Visit Summary">
         <MudText>Visit Summary</MudText>
     </MudTabPanel>
-
 </MudTabs>
 @code {
     private MudTheme Theme = new MudTheme();
